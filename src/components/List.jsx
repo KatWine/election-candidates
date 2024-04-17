@@ -1,4 +1,5 @@
 import React from 'react'
+import List from './components/List.css'
 
 const List = () => {
     const candidateNames = [
@@ -13,7 +14,9 @@ const List = () => {
     ];
 
   return (
-    <div>List</div>
+    <div>{
+      const candidate = candidateNames.map(user=> user)
+      }</div>
   )
 }
 
